@@ -1,0 +1,1 @@
+include ':app', ':bgarefrelayout', ':photopicker', ':pagerslidingtabstriplibrary'

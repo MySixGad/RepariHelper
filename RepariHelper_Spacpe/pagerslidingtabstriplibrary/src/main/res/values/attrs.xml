@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <!-- 滑动指示器的颜色 -->
+        <attr name="pstsIndicatorColor" format="color" />
+        <!-- tabs底部完整宽的线的颜色 -->
+        <attr name="pstsUnderlineColor" format="color" />
+        <!-- tab之间的分隔线的颜色 -->
+        <attr name="pstsDividerColor" format="color" />
+        <!-- 滑动指标器的高 -->
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <!-- tabs底部完整宽的线的高 -->
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <!-- 分隔线的顶部和底部的padding -->
+        <attr name="pstsDividerPadding" format="dimension" />
+        <!-- 每个tab的左和右的padding -->
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <!-- 滚动抵消所选的选项卡 -->
+        <attr name="pstsScrollOffset" format="dimension" />
+        <!-- 每个Tab的背景,应该设置一个StateListDrawable -->
+        <attr name="pstsTabBackground" format="reference" />
+        <!-- 如果设置为true,每个tab都给一样的weight,默认是false -->
+        <attr name="pstsShouldExpand" format="boolean" />
+        <!-- 如果设置为true,所有tab的标题都转换为大写字母,默认是true -->
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+
+</resources>

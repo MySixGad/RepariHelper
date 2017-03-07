@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+
+    </android.support.v4.view.ViewPager>
+
+
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tabstrip"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/viewpager">
+
+    </com.astuetz.PagerSlidingTabStrip>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager1"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@+id/tabstrip">
+
+    </android.support.v4.view.ViewPager>
+
+
+    <ListView
+        android:id="@+id/lv_zixun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewpager1">
+
+    </ListView>
+
+
+</RelativeLayout>
